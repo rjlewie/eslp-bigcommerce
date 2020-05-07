@@ -42,19 +42,163 @@ blog:
 
     <div class="main full grid-bg">
         <div class="container">
-            {{#if products.featured}}
-                {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
-            {{/if}}
-            {{{region name="home_below_featured_products"}}}
-        
-            {{#if products.top_sellers}}
-                {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
-            {{/if}}
-            {{{region name="home_below_top_products"}}}
-        
-            {{#if products.new}}
-                {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
-            {{/if}}
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="page-heading" style="font-family: 'Work Sans', sans-serif;">Products</h2>
+
+                    <div class="bootstrapiso">
+                        <!-- SPORTS MARKERS -->
+                        <button class="custom-accordion work-sans border-bottom"><b><a href="https://elitesportsproducts.mybigcommerce.com/sports-markers" class="text-dark">SPORTS MARKERS</a></b></button>
+                        <div class="custom-panel border-right border-left">
+                            <div class="">
+                                <div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/fluoro-pink-aerodome/" class="work-sans" style="color: #494f54">FLUORO PINK AERODOME</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/super-safety-rubber-aerocone/" class="work-sans" style="color: #494f54">SUPER SAFETY RUBBER AEROCONE</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/1-10-numbered-marker-flags-set/" class="work-sans" style="color: #494f54">1 - 10 NUMBERED MARKER FLAGS SET</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/1-20-numbered-marker-flags-set/" class="work-sans" style="color: #494f54">1 - 20 NUMBERED MARKER FLAGS SET</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/aerodome-mini-aerodome-sets/" class="work-sans"  style="color: #494f54">AERODOME & MINI AERODOME SETS</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/aerodome-marker-stand/" class="work-sans" style="color: #494f54">AERODOME MARKER STAND</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/boundary-marker-flag/" class="work-sans" style="color: #494f54">BOUNDARY MARKER FLAG</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/mini-aerodome/" class="work-sans" style="color: #494f54">MINI AERODOME</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/multi-product-marker-stand/" class="work-sans" style="color: #494f54">MULTI PRODUCT MARKER STAND</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/numbered-marker-flag-stand/" class="work-sans" style="color: #494f54">NUMBERED MARKER FLAG STAND</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/safety-aerocone/" class="work-sans" style="color: #494f54">SAFETY AEROCONE</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/safety-aerodome/" class="work-sans" style="color: #494f54">SAFETY AERODOME</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/soft-hemisphere-marker/" class="work-sans" style="color: #494f54">SOFT HEMISPHERE MARKER</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SKIPPING ROPES -->
+                        <button class="custom-accordion work-sans border-bottom"><b><a href="https://elitesportsproducts.mybigcommerce.com/skipping-ropes/" class="text-dark">SKIPPING ROPES</a></b></button>
+                        <div class="custom-panel border-right border-left">
+                            <div class="">
+                                <div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/afl-nrl-team-coloured-ropes/" class="work-sans" style="color: #494f54">AFL & NRL TEAM COLOURED ROPES</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/elite-sports-beaded-skipping-ropes/" class="work-sans" style="color: #494f54">ELITE SPORTS BEADED SKIPPING ROPES</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/elite-sports-junior-skipping-rope/" class="work-sans" style="color: #494f54">ELITE SPORTS JUNIOR SKIPPING ROPE</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/elite-sports-premium-skipping-ropes/" class="work-sans" style="color: #494f54">ELITE SPORTS PREMIU SKIPPING ROPES</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LEISURE & GAMES -->
+                        <button class="custom-accordion work-sans border-bottom"><b><a href="https://elitesportsproducts.mybigcommerce.com/leisure-games/" class="text-dark">LEISURE & GAMES</a></b></button>
+                        <div class="custom-panel border-right border-left">
+                            <div class="">
+                                <div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/aeroflyer-flying-rings/" class="work-sans" style="color: #494f54">AEROFLYER FLYING RINGS</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/elite-sports-aust-made-solid-hula-hoops/" class="work-sans" style="color: #494f54">SOLID HULA HOOPS</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/locking-sportsgoods-storage-wheeliebin/" class="work-sans" style="color: #494f54">LOCKING SPORTSGOODS STORAGE WHEELIEBIN</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/aeroflyer-quoits-golf-kits/" class="work-sans" style="color: #494f54">AEROFLYER QUOITS/GOLF KITS</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/aeroflyer-quoits-golf-set-in-kitbag/" class="work-sans" style="color: #494f54">AEROFLYER QUOITS/GOLF SET IN KITBAG</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/basketball-possession-arrow/" class="work-sans" style="color: #494f54">BASKETBALL POSSESSION ARROW</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/elite-sports-pop-top-sports-drink-bottle/" class="work-sans" style="color: #494f54">ELITE SPORTS POP TOP SPORTS DRINK BOTTLE</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/elite-sports-standard-frizbee/" class="work-sans" style="color: #494f54">ELITE SPORTS STANDARD FRIZBEE</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/super-soft-touch-afl-indoor-football/" class="work-sans" style="color: #494f54">SUPER SOFT TOUCH AFL INDOOR FOOTBALL</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/the-new-elite-sports-nil-spill/" class="work-sans" style="color: #494f54">NILL SPILL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MOOSE PRODUCTS -->
+                        <button class="custom-accordion work-sans border-bottom"><b><a href="https://elitesportsproducts.mybigcommerce.com/moose-products/" class="text-dark">MOOSE PRODUCTS</a></b></button>
+                        <div class="custom-panel border-right border-left">
+                            <div class="">
+                                <div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/elastics/" class="work-sans" style="color: #494f54">ELASTICS</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/fidgets-fiddle-sticks-knuckleheads/" class="work-sans" style="color: #494f54">FIDGETS-FIDDLE STICKS & KNUCKLEHEADS</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/swirl-patterned-hula-hoops/" class="work-sans" style="color: #494f54">SWIRL PATTERNED HULA HOOPS</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/whizzbee/" class="work-sans" style="color: #494f54">WHIZZBEE</a>
+                                    </div>
+                                    <div class="py-1 border-bottom product-link-container px-5 text-truncate">
+                                        <a href="https://elitesportsproducts.mybigcommerce.com/yoyo/" class="work-sans" style="color: #494f54">YOYO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="">
+                        {{#if products.featured}}
+                            {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
+                        {{/if}}
+                        {{{region name="home_below_featured_products"}}}
+                    
+                        {{#if products.top_sellers}}
+                            {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
+                        {{/if}}
+                        {{{region name="home_below_top_products"}}}
+                    
+                        {{#if products.new}}
+                            {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 {{/partial}}
